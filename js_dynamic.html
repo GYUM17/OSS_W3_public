@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #add{
+            background-color: blue;
+            color: white;
+        }
+        #del{
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Web page</h1>
+    <div>
+        <input type="text" id="fruit">
+        <button id="add">추가</button>
+        <button id="del">제거</button>
+    </div>
+    <ul id="mylist"></ul>
+</body>
+</html>
+
+<script>
+    const add = document.getElementById("add");
+    const del = document.getElementById("del");
+    const mylist = document.getElementById("mylist");
+
+    add.addEventListener("click", ()=>{
+        mylist.innerText="";
+        const text = document.getElementById("fruit").value;
+        const parts = text.split(",");
+
+        parts.forEach(fruit => {
+            if (fruit) {
+                const li = document.createElement("li"); 
+                li.textContent = fruit; 
+                mylist.appendChild(li); 
+            }
+        });
+    });
+
+    del.addEventListener("click", ()=>{
+        mylist.innerText = "";
+        document.getElementById("fruit").value = "";
+    });
+</script>
