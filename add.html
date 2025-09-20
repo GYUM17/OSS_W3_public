@@ -65,7 +65,7 @@
                 return false;
             }
 
-            if (price === "") {
+            if (price === "" || isNaN(price)) {
                 alert("올바른 판매가격을 입력하세요.");
                 return false;
             }
