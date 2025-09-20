@@ -1,2 +1,36 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/0k5rBDx2)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20496262&assignment_repo_type=AssignmentRepo)
+## Self-Check items
+
+
+1. 새로운 github repo와 netlify에서 새로운 사이트를 생성했는가?
+- 네 
+
+2. 이번에 기획한 CRUD Frontend Service의 주제는 무엇인가?
+- 중고거래 사이트 상품관리
+
+3. 리스트 페이지(index.html)에서 표시하는 항목을 적으세요(4개이상 표시)
+- 상품명, 가격, 중고/새상품 여부, 택배/직거래 여부
+
+4. 추가페이지(add.html)에 사용한 입력항목과 종류(type)를 모두 적으시오.(6개 이상 항목)
+- 상품명 - input text
+- 카테고리 - input text
+- 판매가격 - input text
+- 상품 설명 - textarea
+- 상품 상태 - radio
+- 거래 방법 - radio
+
+5. 데이터추가(add.html)와 데이터수정(edit.html) 페이지에서 사용하는 
+Validation Check 항목 조건을 모두 적으세요.(4개 조건이상)
+- 상품명을 입력하였는지?
+- 카테고리를 입력하였는지?
+- 판매가격읍 입력하였는지? or 숫자만 입력하였는지? 
+- 상품설명을 입력하였는지? 
+
+6. index.html에 이번 과제에서 작성한 모든 페이지 링크를 추가했는가?
+- 네 
+
+7. CRUD Service를 위한 모든 웹 페이지는 RWD(Responsive Web Device)별로 CSS가 적용되어 있는가?
+- 네
+
+8. 현재까지 프로젝트를 구현하면서 소감, 어려움, 또는 건의사항은 무엇인가?
+- 3~4일이라는 짧은 시간 동안 새로운 프레임 워크를 배우고 이를 지금까지 배웠던 css에 적용하는 것에 많은 어려움이 있었지만, 프레임 워크의 사용법을 어느정도 이해한 후에는 css 다루기가 훨씬 편리해 졌다. 
+
